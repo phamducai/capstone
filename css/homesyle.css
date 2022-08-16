@@ -7,6 +7,7 @@ body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .section {
   padding: 5rem 0;
@@ -75,7 +76,7 @@ header {
 .navbar .navbar-brand {
   margin: 0;
   padding: 0;
-  font-size: 34px;
+  font-size: 2.2125rem;
   font-weight: 600;
   text-transform: capitalize;
   color: #189a46;
@@ -163,8 +164,8 @@ header {
   max-width: 700px;
 }
 .carosuel .item h5 {
-  font-size: 66px;
-  line-height: 76px;
+  font-size: 4.125rem;
+  line-height: 4.75rem;
   font-weight: 700;
   color: #fff;
   text-transform: capitalize;
@@ -173,7 +174,7 @@ header {
   color: #fff;
   font-weight: 400;
   text-transform: capitalize;
-  line-height: 30px;
+  line-height: 1.875rem;
   opacity: 0.9;
   margin-bottom: 75px;
 }
@@ -206,8 +207,8 @@ header {
 }
 .btn-white {
   padding: 12px 35px;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   text-transform: capitalize;
   font-weight: 400;
   transition: 0.3s ease-in;
@@ -234,7 +235,7 @@ header {
   text-align: center;
 }
 .aboutus h6 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 2em;
@@ -242,7 +243,7 @@ header {
   color: #f53626;
 }
 .aboutus h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 48px;
   text-transform: capitalize;
@@ -267,7 +268,7 @@ header {
   margin-top: 20px;
   display: inline-block;
   text-transform: capitalize;
-  font-size: 17px;
+  font-size: 1.0625rem;
   padding: 0;
 }
 .container .a:hover {
@@ -277,12 +278,8 @@ header {
 .features {
   background-color: rgb(249 247 254);
 }
-.features .features__main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-}
-.features .features__main .features__item {
+
+.features .features__item {
   padding: 40px 49px;
   transition: all 0.5s ease 0s;
   border-radius: 8px;
@@ -290,18 +287,18 @@ header {
   position: relative;
   margin-bottom: 30px;
 }
-.features .features__main .features__item:hover {
+.features .features__item:hover {
   background-color: rgba(147, 107, 232, 0.05);
 }
 .features i {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #189a46;
 }
 .features h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin-top: 1.5625rem;
+  margin-bottom: 0.9375rem;
   display: block;
   color: #000c04;
   cursor: pointer;
@@ -315,7 +312,7 @@ header {
   border-radius: 10px;
 }
 .service h6 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 2em;
@@ -323,25 +320,25 @@ header {
   color: #f53626;
 }
 .service h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
-  line-height: 48px;
+  line-height: 3rem;
   text-transform: capitalize;
 }
 .service p {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24.5px;
+  font-size: 1rem;
+  line-height: 1.53125rem;
   color: var(--para-color);
   margin: 15px 0 35px 0;
 }
 .service li {
   font-style: normal;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
   color: #000c04;
-  margin: 15px 0;
+  margin: 0.9375rem 0;
   font-weight: 600;
 }
 .service ul {
@@ -349,10 +346,10 @@ header {
 }
 .service li span i {
   color: #189a46;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   background: rgba(147, 107, 232, 0.05);
-  font-size: 10px;
-  padding: 8px;
+  font-size: 0.625rem;
+  padding: 0.5rem;
   border-radius: 50%;
   display: inline-block;
 }
@@ -361,16 +358,16 @@ header {
   background-color: #189a46;
 }
 .number p {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 3.125rem;
+  line-height: 3.75rem;
   font-weight: 600;
   color: #fff;
   margin-top: 30px;
   margin-bottom: 0;
 }
 .number h4 {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
   text-transform: capitalize;
   color: #fff;
   margin-top: 10px;
@@ -384,23 +381,23 @@ header {
 }
 .plan .plan__text h6 {
   text-transform: capitalize;
-  margin-bottom: 10px;
-  font-size: 25px;
-  line-height: 30px;
+  margin-bottom: 0.625rem;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: #f53626;
 }
 .plan h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
-  line-height: 48px;
+  line-height: 3rem;
   text-transform: capitalize;
 }
 .buttons {
-  padding: 12px 35px;
-  font-size: 18px;
-  line-height: 28px;
+  padding: 0.75rem 2.1875rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   text-transform: capitalize;
   font-weight: 400;
   transition: 0.3s ease-in;
@@ -445,15 +442,15 @@ header {
 .plan .plan__content h6 {
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 10px;
-  font-size: 25px;
-  line-height: 30px;
+  margin-bottom: 0.625rem;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
   font-weight: 600;
 }
 
 .plan h5 {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
   color: #189a46;
   text-align: center;
   text-transform: uppercase;
@@ -465,26 +462,26 @@ header {
   border-radius: 8px;
 }
 .plan h4 span {
-  font-size: 40px;
-  line-height: 45px;
+  font-size: 2.5rem;
+  line-height: 2.8125rem;
   margin: 15px 0 20px;
   text-align: center;
   font-weight: 600;
   color: #189a46;
 }
 .plan h4 label {
-  font-size: 25px;
+  font-size: 1.5625rem;
   vertical-align: text-top;
 }
 .plan h4 {
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.5625rem;
   color: #999;
   font-weight: 400;
 }
 .plan .item__bottom p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-weight: normal;
   align-self: center;
   padding-top: 6px;
@@ -496,7 +493,7 @@ header {
   text-align: center;
 }
 .nutrition h6 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 2em;
@@ -504,15 +501,15 @@ header {
   color: #f53626;
 }
 .nutrition h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
-  line-height: 48px;
+  line-height: 3rem;
   text-transform: capitalize;
   color: #000c04;
 }
 .nutrition img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   height: auto;
   vertical-align: middle;
   border-style: none;
@@ -543,7 +540,7 @@ header {
 }
 .tetimonials h6 {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 2em;
@@ -552,18 +549,18 @@ header {
 }
 .tetimonials h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
-  line-height: 48px;
+  line-height: 3rem;
   text-transform: capitalize;
 }
 .tetimonials blockquote q {
   text-align: left;
-  font-size: 21.5px;
+  font-size: 1.34375rem;
   line-height: 28px;
   color: #696969;
   font-weight: 400;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   display: inline;
 }
 .tetimonials__content {
@@ -576,7 +573,7 @@ header {
   box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
 }
 .tetimonials blockquote q::before {
-  font-size: 50px;
+  font-size: 3.125rem;
   color: #189a46;
   line-height: 0.8;
   padding-top: 8px;
@@ -617,13 +614,13 @@ header {
 }
 .tetimonials .img__text h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-top: 0;
   padding-bottom: 0;
 }
 .tetimonials .img__text p {
   color: #777;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-style: normal;
   margin-bottom: 0;
   text-align: left;
@@ -647,7 +644,7 @@ header {
   justify-content: space-between;
 }
 .bottom .subcribe__email input {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--title-color);
   border-radius: 0.5rem;
   padding: 0px 20px;
@@ -659,9 +656,9 @@ header {
   padding-right: 20px;
 }
 .bottom h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
-  line-height: 48px;
+  line-height: 3rem;
   text-transform: capitalize;
 }
 /* footer */
@@ -670,8 +667,8 @@ footer {
 }
 footer h6 {
   color: #fff;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
   font-weight: 600;
   margin-bottom: 25px;
 }
@@ -679,7 +676,7 @@ footer p,
 footer a,
 footer i {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
   color: rgb(105, 105, 105);
   line-height: 28px;
 }
@@ -711,7 +708,7 @@ footer li {
   bottom: 90px;
   right: 13px;
   z-index: 99;
-  font-size: 18px;
+  font-size: 1.125rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -743,3 +740,27 @@ footer li {
       0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
+
+/* reponsive */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .plan__content {
+    display: block;
+  }
+  .carosuel .item h5 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+  .carosuel .item h5 {
+    font-size: 2.7rem;
+  }
+  .service .row {
+    display: block !important;
+  }
+} ;

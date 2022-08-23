@@ -160,9 +160,6 @@ header {
   opacity: 0.6;
 }
 
-.item .banner-info-bg {
-  max-width: 700px;
-}
 .carosuel .item h5 {
   font-size: 4.125rem;
   line-height: 4.75rem;
@@ -197,6 +194,7 @@ header {
   left: 100px;
   width: 100%;
   z-index: 10;
+  max-width: 700px;
 }
 .banner-info-bg2 {
   position: absolute;
@@ -204,6 +202,7 @@ header {
   left: 42%;
   width: 100%;
   z-index: 10;
+  max-width: 700px;
 }
 .btn-white {
   padding: 12px 35px;
@@ -256,8 +255,9 @@ header {
   color: #696969;
 }
 .contain__text {
-  width: 700px;
-  margin: auto;
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
 }
 .container .a {
   border-bottom: 2px solid #189a46;
@@ -742,15 +742,53 @@ footer li {
 }
 
 /* reponsive */
+@media screen and (max-width: 1200px) {
+  .banner-info-bg2 {
+    position: absolute;
+    top: 180px;
+    left: 30%;
+    width: 100%;
+    z-index: 10;
+    max-width: 700px;
+  }
+  .carosuel .item br {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .carosuel .item .banner-info-bg {
+    position: absolute;
+    top: 180px;
+    left: 5%;
+    width: 100%;
+    z-index: 10;
+    max-width: 700px;
+  }
+  .banner-info-bg2 {
+    position: absolute;
+    top: 180px;
+    left: 5%;
+    width: 100%;
+    z-index: 10;
+    max-width: 700px;
+  }
+}
 @media screen and (max-width: 768px) {
   html {
     font-size: 14px;
   }
+
   .plan__content {
     display: block;
   }
   .carosuel .item h5 {
     font-size: 3rem;
+  }
+  .backToTop {
+    display: none;
+  }
+  .carosuel .item br {
+    display: unset;
   }
 }
 @media screen and (max-width: 576px) {
@@ -759,6 +797,13 @@ footer li {
   }
   .carosuel .item h5 {
     font-size: 2.7rem;
+  }
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .service .row {
     display: block !important;

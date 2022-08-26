@@ -808,4 +808,8 @@ footer li {
   .service .row {
     display: block !important;
   }
-} ;
+}
+
+.my-modal {
+  height: 400px;
+}

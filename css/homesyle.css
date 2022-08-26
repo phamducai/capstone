@@ -49,6 +49,7 @@ p {
   max-width: 650px;
   margin: auto;
 }
+
 /* custombootsrap */
 .dropdown-toggle::after {
   margin-left: 0px;
@@ -72,6 +73,7 @@ header {
   left: 0;
   z-index: 1030;
 }
+
 .navbar .navbar-brand {
   margin: 0;
   padding: 0;
@@ -705,6 +707,7 @@ footer .endhome a {
 footer li {
   margin-bottom: 5px;
 }
+
 /* backtotop */
 .backToTop {
   position: fixed;
@@ -731,6 +734,7 @@ footer li {
   visibility: visible;
   opacity: 1;
 }
+
 /* animation */
 @keyframes ripple {
   0% {

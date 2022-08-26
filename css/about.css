@@ -490,3 +490,26 @@ footer li {
   visibility: visible;
   opacity: 1;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 991px) {
+  .history__content {
+    width: 100%;
+  }
+  .history__grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 40px;
+  }
+  .backToTop {
+    right: 30px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .aboutUs__content p {
+    line-height: 25px;
+    font-size: 15px;
+  }
+}

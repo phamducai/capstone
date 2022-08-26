@@ -103,7 +103,7 @@ header {
   content: "";
   background: #189a46;
   width: 0%;
-  height: 2px;
+  height: 1px;
   bottom: 6px;
   transition: all 0.5s;
 }
@@ -293,4 +293,10 @@ footer li {
   /* back-to-top button visible */
   visibility: visible;
   opacity: 1;
+}
+
+@media screen and (max-width: 991.8px) {
+  .photo__content {
+    margin-top: 20;
+  }
 }

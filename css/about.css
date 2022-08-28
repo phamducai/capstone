@@ -286,7 +286,7 @@ header {
 }
 
 .history__content {
-  width: 50%;
+  width: 55%;
   margin-left: auto;
 }
 
@@ -344,6 +344,11 @@ header {
   color: #000c04;
   font-weight: 600;
   font-size: 24px;
+  transition: all 0.5s;
+}
+
+.services__right .content h6 a:hover {
+  color: #189a46;
 }
 
 /* TEAM */

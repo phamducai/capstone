@@ -315,6 +315,10 @@ footer .endhome a {
 footer li {
   margin-bottom: 5px;
 }
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
 /* backtotop */
 .backToTop {
   position: fixed;

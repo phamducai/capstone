@@ -701,6 +701,10 @@ footer .endhome a {
   color: #f53626;
   opacity: 0.9;
 }
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
 footer li {
   margin-bottom: 5px;
 }

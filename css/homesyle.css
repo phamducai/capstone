@@ -536,6 +536,18 @@ header {
   -webkit-animation: ripple 1s linear infinite;
   animation: ripple 1s linear infinite;
 }
+
+.modal-content {
+  width: 800px;
+  margin: auto;
+  height: 390px;
+}
+.modal-body {
+  padding: 0;
+}
+.vp-center {
+  display: inline-block !important ;
+}
 /* tetimonials */
 .tetimonials {
   background-color: rgba(147, 107, 232, 0.05);

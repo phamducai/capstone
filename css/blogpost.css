@@ -308,6 +308,10 @@ hr {
   width: 100%;
   height: 10px;
 }
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
 footer .endhome a {
   color: #f53626;
   opacity: 0.9;
